@@ -9,7 +9,18 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background: linear-gradient(135deg, #000000, #8f8f8f);
+
+    background:
+        linear-gradient(
+            rgba(0, 0, 0, 0.6),
+            rgba(192, 192, 192, 0.4)
+        ),
+        url("car.webp");
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
     font-family: Arial, sans-serif;
 }
 
